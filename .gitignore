@@ -1,0 +1,33 @@
+# Bytecode & Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+__pypackages__/
+.pytest_tmp/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node / MCP Inspector cache
+.npm-cache/
+node_modules/
+package-lock.json
+
+# Generated SQLite Databases (created automatically via init_db.py)
+*.db
+*.sqlite
+*.sqlite3
+*-journal
